@@ -1,0 +1,611 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(92, 92, 92);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #523c6d;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica";
+    font-size: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+
+head {
+    background-color: rgb(172, 172, 172);
+    position: relative;
+}
+
+.head-body {
+    display: flex;
+    margin: 0px auto;
+    width: 1200px;
+    z-index: 50;
+    height: 80px;
+    vertical-align: top;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2.5px solid rgb(253, 103, 77);
+}
+
+.page-logo img {
+    margin: 15px 410px 0px 60px;
+    max-width: 330px;
+    max-height: 330px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 28px 24px 0px 0px;
+}
+
+.menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-right: 13px;
+    padding: 4px 4px;
+    text-transform: uppercase;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: rgb(82, 82, 82);
+    border-bottom: 3px solid transparent;
+}
+
+.menu .first-menu>li>a:hover {
+    border-bottom: 3px solid rgb(5, 150, 207);
+    text-shadow: rgb(200, 200, 200) 1px 1px 0px;
+}
+
+.menu .first-menu>li:nth-child(2) a:visited {
+    color: rgb(255, 182, 47);
+}
+
+.social-icons div img {
+    height: 23px;
+    width: 23px;
+    margin-top: 7px;
+    margin-left: 7.5px;
+    cursor: pointer;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.social-icons div {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgb(230, 240, 250);
+    width: 38px;
+    height: 38px;
+    border-radius: 24px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.social-icons div img:hover {
+    height: 25px;
+    width: 25px;
+    border-radius: 23px;
+}
+
+.social-icons div:hover {
+    background-color: rgba(5, 36, 82, 0.397);
+    opacity: 0.9;
+}
+
+.head-photo {
+    margin: 82px 0px 0px 0px;
+    background-image: url(menu.jpg);
+    min-height: 500px;
+    min-width: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.head-title {
+    font-size: 72px;
+    font-family: "Tinos";
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    margin: -292px 0px 0px 0px;
+    text-shadow: 2px 2px rgb(255, 125, 78);
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+.text-box {
+    margin: -86px 0px 0px 626px;
+    height: 75px;
+    width: 260px;
+    background-color: rgb(187, 186, 186);
+    opacity: 0.6;
+    position: relative;
+    z-index: 1;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    border-radius: 20px;
+}
+
+section {
+    background-color: rgb(253, 103, 77);
+}
+
+.mid-salad {
+    background-color: rgb(253, 103, 77);
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    margin-left: 340px;
+}
+
+.icon {
+    width: 165px;
+    height: 165px;
+    margin: 0px 0px -408px 80px;
+}
+
+.order-title {
+    font-size: 62px;
+    color: white;
+    font-family: "Girassol";
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(253, 103, 77);
+    margin-top: 198px;
+    padding: 65px 0px 50px 0px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20.3px;
+}
+
+.box {
+    background-color: rgb(253, 134, 113);
+    width: 480px;
+    height: 600px;
+    font-size: 20px;
+}
+
+.tparallax {
+    background-image: url(menu-salad.jpg);
+    min-height: 600px;
+    min-width: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-title {
+    font-size: 44px;
+    color: white;
+    font-family: "Girassol";
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.title1 {
+    color: white;
+    font-size: 26px;
+    font-style: italic;
+    margin: 13px 0px 3px 26px;
+    font-family: "Spectral";
+}
+
+.box .salad1 {
+    color: white;
+    font-style: italic;
+    margin: 0px 11.5px;
+    font-family: "Spectral";
+}
+
+.box a {
+    background-color: rgb(253, 103, 77);
+    border: rgb(253, 103, 77) 3px solid;
+    color: white;
+    font-size: 23px;
+    padding: 8px 14px;
+    font-family: "Spectral";
+    margin: 15px 0px 0px 160px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.box a:hover {
+    background-color: rgb(253, 134, 113);
+    font-weight: bold;
+}
+
+.mid-sraters {
+    display: flex;
+}
+
+.box1 {
+    height: 675px;
+    width: 465px;
+    background-color: rgb(170, 90, 76);
+}
+
+.fparallax {
+    background-image: url(menu-starter.jpg);
+    min-height: 675px;
+    min-width: 790px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.starter1 {
+    color: white;
+    font-style: italic;
+    margin: 0px 14px;
+    font-family: "Spectral";
+    font-size: 20px;
+}
+
+.buto {
+    background-color: rgb(224, 99, 77);
+    border: rgb(224, 99, 77) 3px solid;
+    color: white;
+    font-size: 23px;
+    padding: 8px 14px;
+    font-family: "Spectral";
+    margin: 20px 0px 0px 162px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.buto:hover {
+    background-color: rgb(170, 90, 76);
+    font-weight: bold;
+}
+
+.steack {
+    width: 145px;
+    height: 145px;
+    margin: 0px 0px -400px 1320px;
+}
+
+.mid-dessert {
+    display: flex;
+}
+
+.fiprallax {
+    background-image: url(menu-dessert.jpg);
+    min-height: 606px;
+    min-width: 736px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+    background-color: rgb(253, 134, 113);
+    width: 420px;
+    height: 606px;
+    font-size: 20px;
+    margin-left: 370px;
+}
+
+.dessert {
+    color: white;
+    font-style: italic;
+    margin: 0px 7px 0px 16px;
+    font-family: "Spectral";
+    font-size: 20px;
+}
+
+.buttn {
+    background-color: rgb(253, 103, 77);
+    border: rgb(253, 103, 77) 3px solid;
+    color: white;
+    font-size: 23px;
+    padding: 8px 14px;
+    font-family: "Spectral";
+    margin: 15px 0px 0px 148px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.buttn:hover {
+    background-color: rgb(253, 134, 113);
+    font-weight: bold;
+}
+
+.cake {
+    width: 145px;
+    height: 145px;
+    margin: 0px 0px -388px 108px;
+}
+
+.mid-protein {
+    display: flex;
+}
+
+.siparallax {
+    background-image: url(protein-bar.jpg);
+    min-height: 610px;
+    min-width: 790px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    height: 610px;
+    width: 475px;
+    background-color: rgb(170, 90, 76);
+}
+
+.protein {
+    color: white;
+    font-style: italic;
+    margin: 0px 12px 0px 14px;
+    font-family: "Spectral";
+    font-size: 20px;
+}
+
+.buttо {
+    background-color: rgb(224, 99, 77);
+    border: rgb(224, 99, 77) 3px solid;
+    color: white;
+    font-size: 23px;
+    padding: 8px 14px;
+    font-family: "Spectral";
+    margin: 20px 0px 0px 162px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.butto:hover {
+    background-color: rgb(170, 90, 76);
+    font-weight: bold;
+}
+
+.proteins1 {
+    width: 94px;
+    height: 98px;
+    margin: 0px 0px -380px 1348px;
+}
+
+.drinks {
+    display: flex;
+}
+
+.box4 {
+    background-color: rgb(253, 134, 113);
+    width: 460px;
+    height: 542px;
+    font-size: 20px;
+    margin-left: 370px;
+}
+
+.separallax {
+    background-image: url(smo.jpg);
+    min-height: 542px;
+    min-width: 736px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drink {
+    width: 146px;
+    height: 146px;
+    margin: 0px 0px -344px 108px;
+}
+
+.b {
+    background-color: rgb(253, 103, 77);
+    border: rgb(253, 103, 77) 3px solid;
+    color: white;
+    font-size: 23px;
+    padding: 8px 14px;
+    font-family: "Spectral";
+    margin: 15px 0px 0px 150px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.b:hover {
+    background-color: rgb(253, 134, 113);
+    font-weight: bold;
+}
+
+footer .footer {
+    height: 290px;
+    background: rgb(51, 51, 51);
+    margin: 0px auto 0px auto;
+    display: flex;
+}
+
+.fleft-col {
+    margin-top: 48px;
+}
+
+.fleft-col a {
+    display: block;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin: 12px 0px 0px 115px;
+}
+
+.fleft-col a:hover {
+    color: tan;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.left-col {
+    margin: 22px 0px 0px 106px;
+}
+
+.left-col img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 10px 10px 0px;
+}
+
+.left-col img:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.left-img {
+    display: flex;
+}
+
+.righy-img {
+    display: flex;
+}
+
+.left-col .title {
+    font-size: 28px;
+    color: white;
+}
+
+.left-col .address {
+    font-size: 16px;
+    color: white;
+    margin: 8px 0px 8px 0px;
+}
+
+.right-col {
+    margin: 22px 0px 0px 110px;
+}
+
+.right-col .social-logo img {
+    width: 32px;
+    height: 32px;
+    margin: 0px 8px 11px 0px;
+}
+
+.right-col .subscribe {
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    margin: 0px 0px 20px 0px;
+}
+
+.right-col .email {
+    border: none;
+    height: 32px;
+    width: 262px;
+}
+
+.right-col .email:focus {
+    outline: none;
+}
+
+.right-col .btn {
+    height: 34px;
+    width: 88px;
+    background-color: rgb(26, 26, 26);
+    border-top: 2px white solid;
+    border-right: 2px white solid;
+    border-bottom: 2px white solid;
+    border-left: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-col .btn:hover {
+    background: rgb(99, 99, 99);
+}
+
+.midlle-col {
+    margin: 22px 0px 0px 110px;
+}
+
+.midlle-col .title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.midlle-col .panda {
+    width: 88px;
+    height: 48px;
+    margin: 0px 48px 0px 18px;
+}
+
+.midlle-col .takeaway {
+    width: 70px;
+    height: 53px;
+}
+
+.row2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.midlle-col .glovo {
+    width: 63px;
+    height: 63px;
+    margin: 0px 66px 0px 30px;
+}
+
+.midlle-col .fastfood {
+    width: 63px;
+    height: 63px;
+}
